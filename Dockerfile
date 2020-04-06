@@ -8,3 +8,4 @@ RUN apt-get install php php-fpm php-mbstring php-dom php-zip php-pdo php-tokeniz
 RUN apt-get install curl git vim apache2 -y
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
+
